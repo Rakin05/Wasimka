@@ -7,11 +7,7 @@ import de.klotzsche.wasimka.api.CurrentFeeledTemperature
  */
 object WeatherImage {
   def get:String = {
-    val currentlyFeltTemp = CurrentFeeledTemperature.get
-
-    println(currentlyFeltTemp)
-    
-    currentlyFeltTemp match {
+      CurrentFeeledTemperature.get match {
       case i if i <= 4.0  => filePath("pics/-x-4.jpg")
       case i if i <= 13.0 => filePath("pics/5-13.jpg")
       case i if i <= 17.0 => filePath("pics/13-17.jpg")
