@@ -8,5 +8,5 @@ object WindChill {
     roundToOneDecimal(windChill)
   }
 
-  private def roundToOneDecimal(number: Double):Double = (number * 10).round / 10.toDouble
+  private def roundToOneDecimal(number: Double) = (number * 10).round / 10.toDouble
 }
