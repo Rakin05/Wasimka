@@ -1,6 +1,6 @@
 package de.klotzsche.wasimka
 
-import de.klotzsche.wasika.WindChill
+import de.klotzsche.wasimka.weather.WindChill
 import org.scalatest.{Matchers, FlatSpec}
 
 class WindChillTest extends FlatSpec with Matchers{

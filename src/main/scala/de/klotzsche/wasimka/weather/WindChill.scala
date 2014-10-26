@@ -1,4 +1,4 @@
-package de.klotzsche.wasika
+package de.klotzsche.wasimka.weather
 
 object WindChill {
   def calculate(temperature: Double, windSpeed: Double): Double = {
