@@ -4,7 +4,7 @@
 		module="wasimka_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20141026125721"
+		publication="20141026151009"
 	>
 		<description>
 		Wasimka
@@ -34,5 +34,6 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.2" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.2.1" conf="test->default(compile)"/>
 		<dependency org="org.scalafx" name="scalafx_2.11" rev="8.0.0-R4" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-json_2.11" rev="2.3.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
